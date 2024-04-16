@@ -1,4 +1,4 @@
-# placepicker-collection-backend
+# placepicker-collection-backend 🎨 🖼️
 
 ## 📣 Overview:
 
