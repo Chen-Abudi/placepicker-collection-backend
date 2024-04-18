@@ -17,11 +17,15 @@ A practice project in React, displaying a personal collection of places around t
 - JavaScript
 - CSS3
 - Vite
+- ExpressJS
 
 ## 🛠️ Techniques:
 
 - HTTP Requests
 - Database Connection
+- Async/Await Functions
+- Handling Loading States
+- Handling HTTP Errors
 
 ---
 
