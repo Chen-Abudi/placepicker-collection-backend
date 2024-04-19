@@ -13,7 +13,7 @@ A practice project in React, displaying a personal collection of places around t
 
 ## 🧰 Tech Stack:
 
-- React
+- React + React Hooks
 - JavaScript
 - CSS3
 - Vite
@@ -26,6 +26,7 @@ A practice project in React, displaying a personal collection of places around t
 - Async/Await Functions
 - Handling Loading States
 - Handling HTTP Errors
+- Custom Hooks
 
 ---
 
