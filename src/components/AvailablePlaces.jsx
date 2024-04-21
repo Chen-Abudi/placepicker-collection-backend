@@ -21,34 +21,11 @@ async function fetchSortedPlaces() {
 }
 
 export default function AvailablePlaces({ onSelectPlace }) {
-  // const [isFetching, setIsFetching] = useState(false);
-  // const [availablePlaces, setAvailablePlaces] = useState([]);
-  // const [error, setError] = useState();
-
   const {
     isFetching,
     error,
     fetchedData: availablePlaces,
   } = useFetch(fetchSortedPlaces, []);
-
-  // useEffect(() => {
-  //   async function fetchPlaces() {
-  //     setIsFetching(true);
-
-  //     try {
-  //       const places = await fetchAvailablePlaces();
-
-  //     } catch (error) {
-  //       setError({
-  //         message:
-  //           error.message || "Could not fetch places, please try again later.",
-  //       });
-  //       setIsFetching(false);
-  //     }
-  //   }
-
-  //   fetchPlaces();
-  // }, []);
 
   if (error) {
     return <Error title="An error has occurred!" message={error.message} />;
