@@ -26,7 +26,7 @@ A practice project in React, displaying a personal collection of places around t
 - Using Async/Await Functions
 - Handling Loading States
 - Handling HTTP Errors
-- Using Flexible Custom Hooks
+- Using Flexible Custom Hooks in Multiple Components
 
 ---
 
